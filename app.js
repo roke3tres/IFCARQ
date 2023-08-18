@@ -13,9 +13,7 @@ import {IFCLoader} from "web-ifc-three/IFCLoader";
 // Sets up the IFC loading
 
 const ifcLoader = new IFCLoader();
-ifcLoader.load("rac_advanced_sample_project-Fase3.ifc", (ifcModel) =>
-  scene.add(ifcModel)
-);
+ifcLoader.load("LaAlqueria_RVT.ifc", (ifcModel) => scene.add(ifcModel));
 
 // Creates the Three.js scene
 const scene = new Scene();
