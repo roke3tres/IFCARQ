@@ -13,7 +13,7 @@ import {IFCLoader} from "web-ifc-three/IFCLoader";
 // Sets up the IFC loading
 
 const ifcLoader = new IFCLoader();
-ifcLoader.load("LaAlqueria_RVT.ifc", (ifcModel) => scene.add(ifcModel));
+ifcLoader.load("729000_ARQ_CIPRIANI_P1_detached.ifc", (ifcModel) => scene.add(ifcModel));
 
 // Creates the Three.js scene
 const scene = new Scene();
