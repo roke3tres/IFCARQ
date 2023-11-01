@@ -1,7 +1,7 @@
 import {
   AmbientLight,
   AxesHelper,
-  DirectionalLight,
+  DirectionalLght,
   GridHelper,
   PerspectiveCamera,
   Scene,
@@ -13,7 +13,7 @@ import {IFCLoader} from "web-ifc-three/IFCLoader";
 // Sets up the IFC loading
 
 const ifcLoader = new IFCLoader();
-ifcLoader.load("729000_ARQ_CIPRIANI_P1_detached.ifc", (ifcModel) => scene.add(ifcModel));
+ifcLoader.load("1294 - CENTRAL ING DEL VILLAR.ifc", (ifcModel) => scene.add(ifcModel));
 
 // Creates the Three.js scene
 const scene = new Scene();
