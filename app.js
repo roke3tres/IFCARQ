@@ -13,7 +13,9 @@ import {IFCLoader} from "web-ifc-three/IFCLoader";
 // Sets up the IFC loading
 
 const ifcLoader = new IFCLoader();
-ifcLoader.load("ARQ-sample_project-R20.ifc", (ifcModel) => scene.add(ifcModel));
+ifcLoader.load("RESA_G2_M3D_EST_ZZZ_ZZZ.ifc", (ifcModel) =>
+  scene.add(ifcModel)
+);
 
 // Creates the Three.js scene
 const scene = new Scene();
